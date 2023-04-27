@@ -1,3 +1,83 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --head-font-style: 'Playfair Display', serif;
+  --p-font: 'Poppins', sans-serif;
+  --primary-color: #1a2236;
+  --background-color: #ffff;
+  --hamBtn-color: #4a4949;
+}
+
+body {
+  background-color: var(--background-color);
+  min-width: 23.44em;
+}
+
 h1 {
-  color: blue;
+  color: var(--primary-color);
+  font-weight: 400;
+  line-height: 50px;
+  font-size: 50px;
+  font-family: var(--head-font-style);
+}
+
+p,
+button {
+  font-family: var(--p-font);
+}
+
+.mobile-version-head-accent {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hamBtn {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 25px;
+  margin: 19px;
+}
+
+.ham {
+  background-color: var(--primary-color);
+  width: 1.56em;
+  height: 0.3em;
+}
+
+.intro-description {
+  padding: 1.25em 1em;
+}
+
+.intro-description h1 {
+  width: 59%;
+  margin-bottom: 17px;
+}
+
+.intro-description p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: -0.01em;
+  text-align: left;
+  margin-bottom: 1.25em;
+}
+
+.strt-collab-btn {
+  width: 100%;
+  color: var(--background-color);
+  background-color: var(--primary-color);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: center;
+  padding: 12px;
+}
+
+.intro-accent img {
+  width: 100%;
 }
