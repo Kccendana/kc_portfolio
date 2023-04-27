@@ -25,6 +25,7 @@ img {
 
 body {
   background-color: var(--background-color);
+  font-family: var(--p-font);
 }
 
 h1 {
@@ -99,7 +100,7 @@ button {
 }
 
 .project-img {
-  margin-bottom: -0.25em;
+  margin-bottom: -0.4em;
 }
 
 .project-name {
@@ -124,6 +125,8 @@ button {
   list-style: none;
   padding: 6px 10px;
   color: var(--primary-color);
+  font-weight: 300;
+  font-size: 12px;
 }
 
 .see-proj {
