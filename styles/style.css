@@ -14,7 +14,7 @@
 
 body {
   background-color: var(--background-color);
-  min-width: 320px;
+  min-width: 23.44em;
 }
 
 h1 {
@@ -45,6 +45,39 @@ button {
 
 .ham {
   background-color: var(--primary-color);
-  width: 25px;
-  height: 5px;
+  width: 1.56em;
+  height: 0.3em;
+}
+
+.intro-description {
+  padding: 1.25em 1em;
+}
+
+.intro-description h1 {
+  width: 59%;
+  margin-bottom: 17px;
+}
+
+.intro-description p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: -0.01em;
+  text-align: left;
+  margin-bottom: 1.25em;
+}
+
+.strt-collab-btn {
+  width: 100%;
+  color: var(--background-color);
+  background-color: var(--primary-color);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: center;
+  padding: 12px;
+}
+
+.intro-accent img {
+  width: 100%;
 }
