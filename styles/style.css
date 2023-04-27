@@ -10,11 +10,21 @@
   --primary-color: #1a2236;
   --background-color: #ffff;
   --hamBtn-color: #4a4949;
+  --accent-color: #98dede;
+}
+
+h2,
+h3,
+h4 {
+  font-family: var(--head-font-style);
+}
+
+img {
+  width: 100%;
 }
 
 body {
   background-color: var(--background-color);
-  min-width: 23.44em;
 }
 
 h1 {
@@ -80,4 +90,52 @@ button {
 
 .intro-accent img {
   width: 100%;
+}
+
+.works h2 {
+  font-weight: 400;
+  font-size: 3em;
+  margin: 0.5em 0.25em;
+}
+
+.project-img {
+  margin-bottom: -0.25em;
+}
+
+.project-name {
+  background-color: var(--primary-color);
+  color: var(--background-color);
+  padding: 1.25em;
+}
+
+.project-name p {
+  font-weight: 300;
+  font-size: 1.25em;
+}
+
+.tech-stack ul {
+  display: flex;
+  margin: 1em 0;
+}
+
+.tech-stack ul li {
+  margin-right: 0.5em;
+  background-color: var(--accent-color);
+  list-style: none;
+  padding: 6px 10px;
+  color: var(--primary-color);
+}
+
+.see-proj {
+  display: flex;
+  border: 1px solid #ffff;
+  padding: 10px;
+  gap: 10px;
+  width: 220px;
+  font-weight: 500;
+  font-size: 1em;
+}
+
+.see-proj img {
+  width: 20.57px;
 }
