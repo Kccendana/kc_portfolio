@@ -1,3 +1,50 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --head-font-style: 'Playfair Display', serif;
+  --p-font: 'Poppins', sans-serif;
+  --primary-color: #1a2236;
+  --background-color: #ffff;
+  --hamBtn-color: #4a4949;
+}
+
+body {
+  background-color: var(--background-color);
+  min-width: 320px;
+}
+
 h1 {
-  color: blue;
+  color: var(--primary-color);
+  font-weight: 400;
+  line-height: 50px;
+  font-size: 50px;
+  font-family: var(--head-font-style);
+}
+
+p,
+button {
+  font-family: var(--p-font);
+}
+
+.mobile-version-head-accent {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hamBtn {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 25px;
+  margin: 19px;
+}
+
+.ham {
+  background-color: var(--primary-color);
+  width: 25px;
+  height: 5px;
 }
