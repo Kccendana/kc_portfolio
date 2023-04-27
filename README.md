@@ -28,6 +28,7 @@
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
+- [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
@@ -112,7 +113,6 @@ To run the project, open it through Live Server.
 
 ## 👥 Author <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
 
 👤 **Katherine Cendana**
 
@@ -162,6 +162,16 @@ I would like to thank Microverse for another wonderful project and learning. I w
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FAQ (optional) -->
+
+## ❓ FAQ (OPTIONAL) <a name="faq"></a>
+
+- **How to contribute to this project?**
+
+  - First, fork the repo. 
+  - Clone the repository so you can start creating make.
+  - Then create a pull request. Then I will check your request and merge it to this project.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 <!-- LICENSE -->
