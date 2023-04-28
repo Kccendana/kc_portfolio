@@ -53,9 +53,7 @@
 
 <details>
 <summary>FIGMA</summary>
-  <ul>
-    <li><a href="https://www.figma.com/">PostgreSQL</a></li>
-  </ul>
+
 </details>
 
 <!-- Features -->
@@ -72,9 +70,8 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Add a link to your deployed project.
 
-- [Live Demo Link](https://google.com)
+- [Live Demo Link](https://kccendana.github.io/kc_portfolio/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
