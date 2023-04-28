@@ -112,6 +112,7 @@ button {
   cursor: pointer;
   background-color: var(--background-color);
   color: var(--primary-color);
+  border: 1px solid var(--primary-color);
 }
 
 .primary-dark-btn:active {
