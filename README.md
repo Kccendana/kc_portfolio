@@ -53,9 +53,7 @@
 
 <details>
 <summary>FIGMA</summary>
-  <ul>
-    <li><a href="https://www.figma.com/">PostgreSQL</a></li>
-  </ul>
+
 </details>
 
 <!-- Features -->
@@ -73,6 +71,7 @@
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 
+- [Live Demo Link](https://kccendana.github.io/kc_portfolio/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -174,10 +173,7 @@ I would like to thank Microverse for another wonderful project and learning. I w
 
 <!-- LICENSE -->
 
-## 🚀 Live Demo <a name="live-demo"></a>
-
-
-- [Live Demo Link](https://kccendana.github.io/kc_portfolio/)
+## 📝 License <a name="license"></a>
 
 This project is [MIT](MIT.md) licensed.
 
