@@ -105,15 +105,16 @@ button {
   line-height: 24px;
   text-align: center;
   padding: 12px;
+  cursor: pointer;
 }
 
-.strt-collab-btn:hover {
+.primary-dark-btn:hover {
   cursor: pointer;
   background-color: var(--background-color);
   color: var(--primary-color);
 }
 
-.strt-collab-btn:active {
+.primary-dark-btn:active {
   border: 2px solid var(--primary-color);
 }
 
@@ -121,10 +122,20 @@ button {
   width: 100%;
 }
 
+.works {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
 .title {
   font-weight: 400;
   font-size: 3em;
   margin-bottom: 0.25em;
+}
+
+.projects {
+  display: flex;
+  flex-direction: column;
 }
 
 .project-img {
@@ -139,9 +150,10 @@ button {
   grid-template-columns: 1fr;
 }
 
-.project-name p {
+.project-name h3 {
   font-weight: 300;
   font-size: 1.25em;
+  font-family: var(--p-font);
 }
 
 .tech-stack ul {
@@ -161,12 +173,17 @@ button {
 
 .see-proj {
   display: flex;
-  border: 1px solid #ffff;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--background-color);
   padding: 10px;
   gap: 10px;
   width: 220px;
   font-weight: 500;
   font-size: 1em;
+  background-color: var(--primary-color);
+  color: var(--background-color);
+  text-align: center;
 }
 
 .see-proj img {
@@ -177,6 +194,7 @@ button {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 
 .get-cv {
@@ -214,6 +232,10 @@ button {
   padding: 50px;
   color: var(--background-color);
   height: 289px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
 }
 
 .skills p {
@@ -288,6 +310,8 @@ button {
 footer {
   background-color: var(--primary-color);
   padding-top: 1em;
+  display: flex;
+  flex-direction: column;
 }
 
 .social-connect {
