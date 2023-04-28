@@ -161,6 +161,12 @@ button {
   width: 20.57px;
 }
 
+.about-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .get-cv {
   display: flex;
   justify-content: center;
