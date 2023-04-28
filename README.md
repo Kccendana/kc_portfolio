@@ -176,7 +176,10 @@ I would like to thank Microverse for another wonderful project and learning. I w
 
 <!-- LICENSE -->
 
-## 📝 License <a name="license"></a>
+## 🚀 Live Demo <a name="live-demo"></a>
+
+
+- [Live Demo Link](https://kccendana.github.io/kc_portfolio/)
 
 This project is [MIT](MIT.md) licensed.
 
