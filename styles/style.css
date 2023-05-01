@@ -160,6 +160,7 @@ button {
 .tech-stack ul {
   display: flex;
   margin: 1em 0;
+  float: left;
 }
 
 .tech-stack ul li {
